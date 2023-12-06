@@ -67,7 +67,7 @@ export default {
     DestinationDetails
 },
 mounted() {
-  fetch('https://node-5qmo.onrender.com/api')
+  fetch('https://cruise-node.onrender.com/api')
         .then(response => response.json())
         .then(data => {
           this.destinationsList = data;
